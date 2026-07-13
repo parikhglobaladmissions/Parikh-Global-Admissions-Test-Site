@@ -1,0 +1,42 @@
+# Parikh Global Admissions — robots.txt
+# Default: allow full crawl access for search engines and AI assistants/answer engines.
+
+User-agent: *
+Allow: /
+Disallow: /index.backup.html
+
+# --- AI crawlers / answer engines (explicitly allowed for AI-search visibility) ---
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://parikhglobaladmissions.com/sitemap.xml

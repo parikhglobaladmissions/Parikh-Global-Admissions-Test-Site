@@ -1,0 +1,10 @@
+# Screenshots taken during design review — not site content
+temporary screenshots/
+
+# Local backups / archives — not source of truth
+index.backup.html
+parikh-global-admissions-site.zip
+
+# OS / editor cruft
+Thumbs.db
+.DS_Store
