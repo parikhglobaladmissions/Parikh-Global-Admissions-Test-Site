@@ -101,6 +101,7 @@ details[open] summary { color: #12233F; }
 /* ============ MOBILE MENU ============ */
 #mobile-menu { display: none; }
 #mobile-menu.is-open { display: block; }
+#menu-toggle { touch-action: manipulation; min-width: 44px; min-height: 44px; }
 
 /* ============ SUB-NAV PILLS (long service/pillar pages) ============ */
 .subnav-pill {
@@ -191,3 +192,20 @@ details[open] summary { color: #12233F; }
 /* ============ SCHOOL CHIPS ============ */
 .school-chip { transition: border-color 220ms, background-color 220ms, transform 220ms; }
 .school-chip:hover { border-color: rgba(184,137,43,0.5); background: #faf5e9; transform: translateY(-2px); }
+
+/* ============ MOBILE STICKY CTA ============ */
+#mobile-cta-bar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 30;
+  transform: translateY(100%); opacity: 0; pointer-events: none;
+  transition: transform 380ms cubic-bezier(0.16,1,0.3,1), opacity 320ms ease;
+}
+#mobile-cta-bar.is-visible { transform: translateY(0); opacity: 1; pointer-events: auto; }
+#mobile-cta-bar .mobile-cta-inner {
+  background: #0b1626;
+  padding: 0.75rem 1rem calc(0.75rem + env(safe-area-inset-bottom, 0px));
+  box-shadow: 0 -8px 24px -8px rgba(11,22,38,0.35);
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+@media (prefers-reduced-motion: reduce) {
+  #mobile-cta-bar { transition: opacity 200ms ease; transform: none; }
+}

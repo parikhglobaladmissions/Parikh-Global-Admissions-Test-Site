@@ -5,6 +5,15 @@ temporary screenshots/
 index.backup.html
 parikh-global-admissions-site.zip
 
+# Internal business docs / reference material — not site content
+Parikh Global website information/
+Brand_Assets/
+get2college.org_.png
+
+# Editor / tool config — not needed to host the site
+.claude/
+.vscode/
+
 # OS / editor cruft
 Thumbs.db
 .DS_Store

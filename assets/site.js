@@ -112,3 +112,22 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   }
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+  var bar = document.getElementById('mobile-cta-bar');
+  if (!bar) return;
+
+  var dismissed = false;
+  try { dismissed = sessionStorage.getItem('pga_cta_dismissed') === '1'; } catch (e) {}
+  if (dismissed) return;
+
+  requestAnimationFrame(function () { bar.classList.add('is-visible'); });
+
+  var dismissBtn = document.getElementById('mobile-cta-dismiss');
+  if (dismissBtn) {
+    dismissBtn.addEventListener('click', function () {
+      bar.classList.remove('is-visible');
+      try { sessionStorage.setItem('pga_cta_dismissed', '1'); } catch (e) {}
+    });
+  }
+});
