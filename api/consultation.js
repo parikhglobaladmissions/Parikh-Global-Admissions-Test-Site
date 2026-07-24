@@ -5,6 +5,18 @@
 
 const HUBSPOT_UPSERT_URL = 'https://api.hubapi.com/crm/v3/objects/contacts/batch/upsert';
 
+// student_grade_level_20 is a HubSpot enumeration property — it only accepts
+// these internal option values, not the form's display text.
+const GRADE_LEVEL_MAP = {
+  'Middle School (6th-8th)': '-5yRNrKLJ2-h0IL0POvRh',
+  '9th Grade': 'khpNByAh8ZiQ7L5lyZLmP',
+  '10th Grade': 'khpNByAh8ZiQ7L5lyZLmP',
+  '11th Grade': 'tMN3jkmqZlUCWNtAkkvJT',
+  '12th Grade': 'TZ62JqW0KeQBt5jTPkMz3',
+  'Current College / Transfer Student': '30woy-ApS8nCmQrF1Puwe',
+  'Graduate / Professional School Applicant': 'NgytyMjgqP-lYpymVqdrl',
+};
+
 function splitName(fullName) {
   const parts = fullName.trim().split(/\s+/);
   const firstname = parts.shift() || '';
@@ -43,7 +55,7 @@ module.exports = async function handler(req, res) {
     firstname,
     lastname,
     phone,
-    current_grade_level: grade,
+    student_grade_level_20: GRADE_LEVEL_MAP[grade],
     service_interest: interest,
     message,
   };
