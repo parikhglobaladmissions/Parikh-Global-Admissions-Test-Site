@@ -14,6 +14,10 @@ get2college.org_.png
 .claude/
 .vscode/
 
+# Local dev helper scripts — not needed to host the site
+screenshot.ps1
+serve.ps1
+
 # OS / editor cruft
 Thumbs.db
 .DS_Store
