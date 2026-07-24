@@ -29,8 +29,48 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 
-document.addEventListener('DOMContentLoaded', function () {
+/* Exposed globally (not just closed over) so dynamically-rendered UI —
+   e.g. the AI Admissions Tools score ring — can trigger the exact same
+   count-up animation on elements that don't exist yet at DOMContentLoaded. */
+window.PortalAnim = (function () {
   var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function finalCounterText(el) {
+    return el.getAttribute('data-counter') + (el.getAttribute('data-counter-suffix') || '');
+  }
+
+  function animateCounter(el) {
+    var target = parseFloat(el.getAttribute('data-counter'));
+    var suffix = el.getAttribute('data-counter-suffix') || '';
+    var duration = 1400;
+    var start = null;
+    var done = false;
+    function finish() {
+      if (done) return;
+      done = true;
+      el.textContent = target + suffix;
+    }
+    function step(ts) {
+      if (done) return;
+      if (!start) start = ts;
+      var progress = Math.min((ts - start) / duration, 1);
+      var eased = 1 - Math.pow(1 - progress, 3);
+      el.textContent = Math.round(target * eased) + suffix;
+      if (progress < 1) requestAnimationFrame(step);
+      else finish();
+    }
+    if (reduceMotion) { finish(); return; }
+    requestAnimationFrame(step);
+    // Safety net: guarantee the final value lands even if rAF stalls
+    // (backgrounded tab, headless rendering, etc.).
+    setTimeout(finish, duration + 400);
+  }
+
+  return { reduceMotion: reduceMotion, animateCounter: animateCounter, finalCounterText: finalCounterText, counterDuration: 1400 };
+})();
+
+document.addEventListener('DOMContentLoaded', function () {
+  var reduceMotion = window.PortalAnim.reduceMotion;
 
   // Scroll reveal
   var revealEls = document.querySelectorAll('.reveal');
@@ -58,42 +98,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // Animated counters
   var counters = document.querySelectorAll('[data-counter]');
-  function finalCounterText(el) {
-    return el.getAttribute('data-counter') + (el.getAttribute('data-counter-suffix') || '');
-  }
-  function animateCounter(el) {
-    var target = parseFloat(el.getAttribute('data-counter'));
-    var suffix = el.getAttribute('data-counter-suffix') || '';
-    var duration = 1400;
-    var start = null;
-    var done = false;
-    function finish() {
-      if (done) return;
-      done = true;
-      el.textContent = target + suffix;
-    }
-    function step(ts) {
-      if (done) return;
-      if (!start) start = ts;
-      var progress = Math.min((ts - start) / duration, 1);
-      var eased = 1 - Math.pow(1 - progress, 3);
-      el.textContent = Math.round(target * eased) + suffix;
-      if (progress < 1) requestAnimationFrame(step);
-      else finish();
-    }
-    requestAnimationFrame(step);
-    // Safety net: guarantee the final value lands even if rAF stalls
-    // (backgrounded tab, headless rendering, etc.).
-    setTimeout(finish, duration + 400);
-  }
   if (counters.length) {
     if (reduceMotion || !('IntersectionObserver' in window)) {
-      counters.forEach(function (el) { el.textContent = finalCounterText(el); });
+      counters.forEach(function (el) { el.textContent = window.PortalAnim.finalCounterText(el); });
     } else {
       var counterObserver = new IntersectionObserver(function (entries) {
         entries.forEach(function (entry) {
           if (entry.isIntersecting) {
-            animateCounter(entry.target);
+            window.PortalAnim.animateCounter(entry.target);
             counterObserver.unobserve(entry.target);
           }
         });
@@ -105,8 +117,8 @@ document.addEventListener('DOMContentLoaded', function () {
       // value so nothing is left showing "0".
       setTimeout(function () {
         counters.forEach(function (el) {
-          if (el.textContent === finalCounterText(el)) return;
-          el.textContent = finalCounterText(el);
+          if (el.textContent === window.PortalAnim.finalCounterText(el)) return;
+          el.textContent = window.PortalAnim.finalCounterText(el);
         });
       }, 2400);
     }

@@ -1,9 +1,11 @@
-# Parikh Global Admissions — robots.txt
+﻿# Parikh Global Admissions Group — robots.txt
 # Default: allow full crawl access for search engines and AI assistants/answer engines.
 
 User-agent: *
 Allow: /
 Disallow: /index.backup.html
+Disallow: /print-collateral/
+Disallow: /portal/
 
 # --- AI crawlers / answer engines (explicitly allowed for AI-search visibility) ---
 User-agent: GPTBot

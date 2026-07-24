@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Flyer Package — Parikh Global Admissions Group</title>
+<style>
+  :root{
+    --navy:#12233F; --navy-2:#0b1626; --gold:#B8892B; --gold-2:#93701f;
+    --charcoal:#2B2F36; --slate:#6B7280; --mist:#E5E7EB; --white:#FFFFFF;
+  }
+  *{ box-sizing:border-box; }
+  body{ margin:0; background:#ddd; font-family:"Calibri","Segoe UI",Tahoma,sans-serif; color:var(--charcoal); }
+  .stage{ display:flex; flex-direction:column; align-items:center; gap:.5in; padding:.5in; }
+
+  .flyer{
+    width:8.5in; height:11in; background:var(--white); position:relative; overflow:hidden;
+    box-shadow:0 4px 22px rgba(0,0,0,0.2);
+    display:flex; flex-direction:column;
+  }
+
+  /* ---------- Header band ---------- */
+  .head{ background:var(--navy); color:var(--white); padding:.42in .55in .34in; position:relative; overflow:hidden; }
+  .head::before{
+    content:''; position:absolute; inset:0;
+    background:
+      radial-gradient(ellipse 60% 90% at 90% 0%, rgba(184,137,43,0.28), transparent 60%),
+      radial-gradient(ellipse 70% 90% at 0% 100%, rgba(59,83,122,0.45), transparent 60%);
+  }
+  .head .brandline{ display:flex; align-items:center; gap:9px; position:relative; }
+  .head .brandline svg{ width:26px; height:26px; flex-shrink:0; }
+  .head .brandline .word{ font-family:Cambria,Georgia,serif; font-weight:700; font-size:12.5pt; letter-spacing:.02em; line-height:1; }
+  .head .brandline .sub{ font-family:Calibri,sans-serif; font-weight:700; color:var(--gold); font-size:6.5pt; letter-spacing:.18em; margin-top:2pt; }
+
+  .head .eyebrow{ position:relative; margin-top:.3in; text-transform:uppercase; letter-spacing:.16em; font-size:8pt; font-weight:700; color:var(--gold); }
+  .head h1{ position:relative; font-family:Cambria,Georgia,serif; font-weight:700; font-size:23pt; line-height:1.14; margin:.09in 0 0; max-width:6.2in; letter-spacing:-0.01em; }
+  .head p.dek{ position:relative; margin:.14in 0 0; max-width:5.6in; font-size:10.5pt; line-height:1.5; color:#c7d0dd; }
+
+  /* ---------- Body ---------- */
+  .body{ flex:1; padding:.4in .55in; }
+  .stat-strip{ display:flex; border:.75pt solid var(--mist); border-radius:8px; overflow:hidden; margin-bottom:.32in; }
+  .stat-strip .stat{ flex:1; text-align:center; padding:.16in .05in; border-right:.75pt solid var(--mist); }
+  .stat-strip .stat:last-child{ border-right:none; }
+  .stat-strip .num{ font-family:Cambria,Georgia,serif; font-weight:700; color:var(--navy); font-size:16pt; }
+  .stat-strip .lbl{ font-size:6.7pt; text-transform:uppercase; letter-spacing:.08em; color:var(--slate); margin-top:2pt; }
+
+  .cols{ display:grid; grid-template-columns:1fr 1fr; gap:.3in; }
+  .item{ padding:.2in 0; border-top:.75pt solid var(--mist); }
+  .item:nth-child(-n+2){ border-top:none; }
+  .item h3{ font-family:Cambria,Georgia,serif; font-weight:700; color:var(--navy); font-size:12pt; margin:0 0 .07in; }
+  .item p{ font-size:9.3pt; line-height:1.55; margin:0; color:var(--charcoal); }
+
+  .quote{ margin:.34in 0 0; padding:.24in .3in; background:#F7F8FA; border-left:3pt solid var(--gold); border-radius:4px; }
+  .quote p{ font-family:Cambria,Georgia,serif; font-style:italic; color:var(--navy); font-size:11.5pt; line-height:1.5; margin:0; }
+
+  /* ---------- Footer CTA ---------- */
+  .foot{ background:var(--navy-2); color:var(--white); padding:.32in .55in; display:flex; align-items:center; justify-content:space-between; gap:.3in; }
+  .foot h4{ font-family:Cambria,Georgia,serif; font-weight:700; font-size:12.5pt; margin:0 0 .05in; }
+  .foot p{ margin:0; font-size:8.7pt; color:#93a1b8; }
+  .foot .btn{ background:var(--gold); color:var(--white); font-weight:700; font-size:9pt; padding:.13in .28in; border-radius:99px; white-space:nowrap; }
+
+  .pagelabel{ text-align:center; font-size:9px; color:#888; margin-top:-.35in; }
+
+  @media print{
+    body{ background:#fff; }
+    .stage{ padding:0; gap:0; }
+    .pagelabel{ display:none; }
+    .flyer{ box-shadow:none; page-break-after:always; }
+    .flyer:last-child{ page-break-after:auto; }
+  }
+</style>
+</head>
+<body>
+<div class="stage">
+
+  <!-- ============ FLYER 1 — FIRM OVERVIEW ============ -->
+  <div class="flyer">
+    <div class="head">
+      <div class="brandline">
+        <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="29" stroke="white" stroke-width="2"/><ellipse cx="32" cy="32" rx="12.5" ry="29" stroke="white" stroke-width="1.4"/><line x1="3.5" y1="32" x2="60.5" y2="32" stroke="white" stroke-width="1.4"/><rect x="27.5" y="27.5" width="9" height="9" transform="rotate(45 32 32)" fill="#B8892B"/></svg>
+        <div><div class="word">PARIKH</div><div class="sub">GLOBAL ADMISSIONS GROUP</div></div>
+      </div>
+      <p class="eyebrow">College Admissions Counseling</p>
+      <h1>Your future doesn't start senior year. It starts today.</h1>
+      <p class="dek">Strategic, multi-year planning across academics, testing, activities, and essays, so every application reflects your student's strongest, most authentic story.</p>
+    </div>
+    <div class="body">
+      <div class="stat-strip">
+        <div class="stat"><div class="num">9+</div><div class="lbl">S. Florida Locations</div></div>
+        <div class="stat"><div class="num">14+</div><div class="lbl">Years of Results</div></div>
+        <div class="stat"><div class="num">10K+</div><div class="lbl">Students Guided</div></div>
+        <div class="stat"><div class="num">$25M+</div><div class="lbl">In Scholarships</div></div>
+      </div>
+      <div class="cols">
+        <div class="item"><h3>College &amp; Graduate School</h3><p>Undergraduate, transfer, graduate school, and BS/MD &amp; pre-professional admissions counseling.</p></div>
+        <div class="item"><h3>High School Planning</h3><p>Course selection, rigor strategy, testing, and extracurricular planning for grades 8–12.</p></div>
+        <div class="item"><h3>Specialized Pathways</h3><p>NCAA athletic recruiting, neurodiverse student support, and international/global admissions.</p></div>
+        <div class="item"><h3>Honest, by design</h3><p>No guaranteed-admission claims. Published pricing. AI used for research and logistics only, never to write a student's voice.</p></div>
+      </div>
+      <div class="quote"><p>"Real admissions success is built over years, not the weeks before a deadline."</p></div>
+    </div>
+    <div class="foot">
+      <div><h4>Start with a free consultation</h4><p>hello@parikhglobaladmissions.com · parikhglobaladmissions.com</p></div>
+      <div class="btn">Schedule a Consultation</div>
+    </div>
+  </div>
+  <p class="pagelabel">Flyer 1 of 4 — Firm Overview (8.5 × 11in)</p>
+
+  <!-- ============ FLYER 2 — COLLEGE & GRADUATE SCHOOL ============ -->
+  <div class="flyer">
+    <div class="head">
+      <div class="brandline">
+        <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="29" stroke="white" stroke-width="2"/><ellipse cx="32" cy="32" rx="12.5" ry="29" stroke="white" stroke-width="1.4"/><line x1="3.5" y1="32" x2="60.5" y2="32" stroke="white" stroke-width="1.4"/><rect x="27.5" y="27.5" width="9" height="9" transform="rotate(45 32 32)" fill="#B8892B"/></svg>
+        <div><div class="word">PARIKH</div><div class="sub">GLOBAL ADMISSIONS GROUP</div></div>
+      </div>
+      <p class="eyebrow">College &amp; Graduate School</p>
+      <h1>Strategic guidance for one of the most important decisions your family will make</h1>
+      <p class="dek">Undergraduate, transfer, graduate school, and BS/MD &amp; pre-professional admissions counseling, built around your student's actual goals.</p>
+    </div>
+    <div class="body">
+      <div class="cols">
+        <div class="item"><h3>Undergraduate Admissions</h3><p>Balanced, realistic school lists and application strategy from freshman year through decision day.</p></div>
+        <div class="item"><h3>Transfer Admissions</h3><p>Strategic guidance for students changing institutions mid-way through their college career.</p></div>
+        <div class="item"><h3>Graduate &amp; Professional School</h3><p>MBA, JD, master's, and doctoral admissions planning, including timeline and positioning strategy.</p></div>
+        <div class="item"><h3>BS/MD &amp; Pre-Professional</h3><p>Long-range planning, activity strategy, and execution for the most selective combined medical pathways.</p></div>
+      </div>
+      <div class="quote"><p>"We don't guarantee acceptances. We guarantee a thoughtful process, honest feedback, and applications that reflect the student authentically."</p></div>
+    </div>
+    <div class="foot">
+      <div><h4>Start with a free consultation</h4><p>hello@parikhglobaladmissions.com · parikhglobaladmissions.com</p></div>
+      <div class="btn">Schedule a Consultation</div>
+    </div>
+  </div>
+  <p class="pagelabel">Flyer 2 of 4 — College &amp; Graduate School</p>
+
+  <!-- ============ FLYER 3 — HIGH SCHOOL PLANNING ============ -->
+  <div class="flyer">
+    <div class="head">
+      <div class="brandline">
+        <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="29" stroke="white" stroke-width="2"/><ellipse cx="32" cy="32" rx="12.5" ry="29" stroke="white" stroke-width="1.4"/><line x1="3.5" y1="32" x2="60.5" y2="32" stroke="white" stroke-width="1.4"/><rect x="27.5" y="27.5" width="9" height="9" transform="rotate(45 32 32)" fill="#B8892B"/></svg>
+        <div><div class="word">PARIKH</div><div class="sub">GLOBAL ADMISSIONS GROUP</div></div>
+      </div>
+      <p class="eyebrow">High School Planning</p>
+      <h1>Building the right foundation before admissions pressure begins</h1>
+      <p class="dek">Course selection, rigor strategy, and long-term planning starting before senior year, for students in grades 8 through 12.</p>
+    </div>
+    <div class="body">
+      <div class="cols">
+        <div class="item"><h3>Course &amp; Rigor Strategy</h3><p>Honors, AP, IB, and dual enrollment planning aligned to your student's goals and capacity.</p></div>
+        <div class="item"><h3>Testing Strategy</h3><p>SAT/ACT timing, test-optional decisions, and a realistic prep runway from freshman year on.</p></div>
+        <div class="item"><h3>Extracurricular Planning</h3><p>Fewer activities, pursued more deeply, rather than a long shallow list built for a resume.</p></div>
+        <div class="item"><h3>Early, Multi-Year Planning</h3><p>Starting as early as 8th or 9th grade, so decisions get made with time, not urgency.</p></div>
+      </div>
+      <div class="quote"><p>"Families begin planning by 8th or 9th grade, when academic choices start shaping a student's long-term profile."</p></div>
+    </div>
+    <div class="foot">
+      <div><h4>Start with a free consultation</h4><p>hello@parikhglobaladmissions.com · parikhglobaladmissions.com</p></div>
+      <div class="btn">Schedule a Consultation</div>
+    </div>
+  </div>
+  <p class="pagelabel">Flyer 3 of 4 — High School Planning</p>
+
+  <!-- ============ FLYER 4 — SPECIALIZED PATHWAYS ============ -->
+  <div class="flyer">
+    <div class="head">
+      <div class="brandline">
+        <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="29" stroke="white" stroke-width="2"/><ellipse cx="32" cy="32" rx="12.5" ry="29" stroke="white" stroke-width="1.4"/><line x1="3.5" y1="32" x2="60.5" y2="32" stroke="white" stroke-width="1.4"/><rect x="27.5" y="27.5" width="9" height="9" transform="rotate(45 32 32)" fill="#B8892B"/></svg>
+        <div><div class="word">PARIKH</div><div class="sub">GLOBAL ADMISSIONS GROUP</div></div>
+      </div>
+      <p class="eyebrow">Specialized Pathways</p>
+      <h1>Tailored guidance for complex, competitive, and non-traditional paths</h1>
+      <p class="dek">For families navigating recruitment, learning differences, or admissions across borders, alongside the standard college process.</p>
+    </div>
+    <div class="body">
+      <div class="cols">
+        <div class="item"><h3>NCAA Recruiting</h3><p>Eligibility guidance, recruiting timelines, and academic strategy for Division I, II, and III athletes.</p></div>
+        <div class="item"><h3>Neurodiverse Student Support</h3><p>Structured planning and admissions strategy built around each student's specific learning profile.</p></div>
+        <div class="item"><h3>International &amp; Global Admissions</h3><p>Guidance for international students applying to U.S. universities, and U.S. students pursuing global pathways.</p></div>
+        <div class="item"><h3>Ivy League &amp; Highly Selective</h3><p>Honest positioning and school-list strategy for truly competitive applicants.</p></div>
+      </div>
+      <div class="quote"><p>"Clarity beats hype every time — in recruiting, in testing, and in every specialized path we advise on."</p></div>
+    </div>
+    <div class="foot">
+      <div><h4>Start with a free consultation</h4><p>hello@parikhglobaladmissions.com · parikhglobaladmissions.com</p></div>
+      <div class="btn">Schedule a Consultation</div>
+    </div>
+  </div>
+  <p class="pagelabel">Flyer 4 of 4 — Specialized Pathways</p>
+
+</div>
+</body>
+</html>

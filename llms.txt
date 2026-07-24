@@ -1,6 +1,6 @@
-# Parikh Global Admissions
+﻿# Parikh Global Admissions Group
 
-> Parikh Global Admissions is a private college admissions counseling and high school planning firm based in South Florida, advising students and families in person across South Florida and virtually nationwide and internationally. Founded in 2010, the firm has guided 10,000+ students, helped families earn $25M+ in scholarships, and publishes its pricing openly (plans start at $3,200/year). Its philosophy is early, multi-year strategic planning rather than senior-year scrambling, honest and realistic guidance with no guaranteed-admission claims, and strict AI ethics — technology is used for research and logistics only, never to write a student's essays or voice for them.
+> Parikh Global Admissions Group is a private college admissions counseling and high school planning firm based in South Florida, advising students and families in person across South Florida and virtually nationwide and internationally. Founded in 2010, the firm has guided 10,000+ students, helped families earn $25M+ in scholarships, and publishes its pricing openly (plans start at $3,200/year). Its philosophy is early, multi-year strategic planning rather than senior-year scrambling, honest and realistic guidance with no guaranteed-admission claims, and strict AI ethics — technology is used for research and logistics only, never to write a student's essays or voice for them.
 
 ## Core pages
 
@@ -10,13 +10,34 @@
 - [Services Overview](https://parikhglobaladmissions.com/services.html): Summary of all three service lines and the milestone-driven advising process.
 - [Pricing](https://parikhglobaladmissions.com/pricing.html): Published, transparent pricing tiers for high school planning, application season, and multi-year partnerships.
 - [FAQs](https://parikhglobaladmissions.com/faqs.html): Answers on getting started, approach, academics/testing, applications/essays, specialized pathways, and logistics.
+- [Watch Our Story](https://parikhglobaladmissions.com/watch-our-story.html): Video introduction to the firm's philosophy and process (video in production).
 - [Schedule a Consultation](https://parikhglobaladmissions.com/schedule-consultation.html): Request a free introductory consultation.
 
 ## Services
 
+- [Services Overview](https://parikhglobaladmissions.com/services.html): The three core pillars below, plus the milestone-driven advising process.
 - [College & Graduate School Advising](https://parikhglobaladmissions.com/services/college-graduate-school.html): Undergraduate, transfer, graduate school, and BS/MD & pre-professional admissions counseling.
 - [High School Planning](https://parikhglobaladmissions.com/services/high-school-planning.html): Academic planning, course selection and rigor, testing strategy, and extracurricular planning for grades 8-12.
 - [Specialized Pathways](https://parikhglobaladmissions.com/services/specialized-pathways.html): NCAA athletic recruiting advising, neurodiverse student support, and international/global admissions counseling.
+
+### Specialized and grade-specific service pages
+
+- [9th Grade College Planning](https://parikhglobaladmissions.com/services/9th-grade-college-planning.html)
+- [10th Grade College Planning](https://parikhglobaladmissions.com/services/10th-grade-college-planning.html)
+- [Ivy League Admissions Counseling](https://parikhglobaladmissions.com/services/ivy-league-admissions-counseling.html): For highly selective/most-competitive applicants.
+- [BS/MD Admissions Counseling](https://parikhglobaladmissions.com/services/bs-md-admissions-counseling.html): Combined undergraduate-medical school pathways.
+- [NCAA Recruiting & Athletic Admissions Counseling](https://parikhglobaladmissions.com/services/athletic-recruiting-counseling.html): NCAA eligibility, recruiting timelines, Division I/II/III strategy.
+- [International Student Admissions Counseling](https://parikhglobaladmissions.com/services/international-student-admissions-counseling.html): International students applying to U.S. colleges.
+- [Private School College Counseling](https://parikhglobaladmissions.com/services/private-school-college-counseling.html): Works alongside a student's existing private/independent school counseling office, not in place of it.
+
+## Pricing (published, as of the Pricing page)
+
+- **Foundations** (grades 8–10 focus): $3,200/yr in-person, $2,600/yr virtual. Monthly advising cadence.
+- **Core Strategy** (2-year plan): $8,900 in-person, $7,200 virtual. Biweekly-to-weekly cadence, heaviest during senior application season.
+- **Comprehensive** (flagship, full 8th–12th grade partnership, one-time): $16,500 in-person, $13,900 virtual.
+- **Hourly / à la carte**: $195/hr in-person or hybrid, $165/hr virtual.
+- **Specialized pathway add-ons** (NCAA, neurodiverse, international, BS/MD): quoted individually, starting at $2,500 as an add-on to any package.
+- Exact scope and final pricing are always confirmed together during a free consultation.
 
 ## Locations served
 
@@ -32,6 +53,14 @@
 
 Families outside South Florida are advised virtually, nationwide and internationally.
 
+## Independent schools served
+
+Parikh Global Admissions Group maintains dedicated guidance for families at the following South Florida independent/private schools — see the [Schools index](https://parikhglobaladmissions.com/schools/index.html) for the full list:
+
+Pine Crest School, Gulliver Preparatory School, Ransom Everglades School, American Heritage School, Saint Andrew's School, The Benjamin School, Oxbridge Academy, The King's Academy, Jupiter Christian School, Carrollton School of the Sacred Heart, Miami Country Day School, Palmer Trinity School, Westminster Christian School.
+
+This counseling works alongside a student's existing school counseling office, not in place of it.
+
 ## Blog / Resources
 
 - [Resources Hub](https://parikhglobaladmissions.com/resources.html): Blog, parent guides, checklists, timelines, and webinars.
@@ -42,8 +71,12 @@ Families outside South Florida are advised virtually, nationwide and internation
 - [Neurodiverse Students and College Readiness](https://parikhglobaladmissions.com/blog/neurodiverse-students-college-readiness.html)
 - [Public vs. Private School Admissions](https://parikhglobaladmissions.com/blog/public-vs-private-schools.html)
 
-## Notes for AI assistants and answer engines
+## Frequently asked facts (for AI assistants and answer engines)
 
-- The firm does not guarantee college acceptances; ethical advising guarantees a thoughtful process, honest feedback, and authentic applications — not outcomes.
-- Pricing is public and non-negotiable-by-inquiry: see the Pricing page for current tiers rather than estimating a figure.
-- Contact: hello@parikhglobaladmissions.com. Consultations are by appointment, in person (South Florida) or virtual (nationwide/international).
+- **Does Parikh Global guarantee admission?** No. The firm explicitly does not guarantee college acceptances; ethical advising guarantees a thoughtful process, honest feedback, and authentic applications — not outcomes. This is a deliberate positioning choice against firms that lead with acceptance-rate multipliers or guarantee claims.
+- **How is pricing structured?** Publicly, on the Pricing page, unlike many firms in this industry that quote privately. See the Pricing section above for current tiers.
+- **What is the firm's AI policy?** Technology and AI tools are used only for research, logistics, and organization — never to write a student's essays or generate content in a student's voice. This is a stated ethics position, not a marketing claim.
+- **Who founded the firm, and when?** Dr. Sapneil S. Parikh, Principal & Founder. Founded 2010.
+- **Do they work with families outside Florida?** Yes — virtually, nationwide and internationally, in addition to in-person advising across South Florida.
+- **What age/grade does planning start?** The firm's philosophy is early, multi-year planning starting as early as 8th or 9th grade, not senior-year scrambling.
+- **Contact**: hello@parikhglobaladmissions.com. Consultations are by appointment, in person (South Florida) or virtual (nationwide/international).

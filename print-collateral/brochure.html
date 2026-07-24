@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Tri-Fold Brochure — Parikh Global Admissions Group</title>
+<style>
+  :root{
+    --navy:#12233F; --navy-2:#0b1626; --gold:#B8892B; --gold-2:#93701f;
+    --charcoal:#2B2F36; --slate:#6B7280; --mist:#E5E7EB; --white:#FFFFFF;
+  }
+  *{ box-sizing:border-box; }
+  body{ margin:0; background:#ddd; font-family:"Calibri","Segoe UI",Tahoma,sans-serif; color:var(--charcoal); }
+  .stage{ padding:.5in; display:flex; flex-direction:column; align-items:center; gap:.6in; }
+
+  .sheet{ width:11in; height:8.5in; display:flex; box-shadow:0 4px 22px rgba(0,0,0,0.2); position:relative; background:var(--white); }
+  .panel{ width:3.66667in; height:8.5in; padding:.4in .32in; position:relative; overflow:hidden; border-right:.75pt dashed rgba(0,0,0,0.18); }
+  .panel:last-child{ border-right:none; }
+
+  .tag{ font-size:8px; font-family:Calibri,sans-serif; color:#999; position:absolute; top:-16px; left:0; }
+  .foldnote{ text-align:center; font-size:10px; color:#888; margin-top:-.55in; max-width:11in; }
+
+  h2.pt{ font-family:Cambria,Georgia,serif; font-weight:700; color:var(--navy); font-size:12.5pt; margin:0 0 .12in; }
+  p.pt{ font-size:8.6pt; line-height:1.55; margin:0 0 .12in; }
+  .eyebrow{ text-transform:uppercase; letter-spacing:.14em; font-size:6.8pt; font-weight:700; color:var(--gold); margin-bottom:.08in; }
+
+  /* ---------- PANEL 1: FRONT COVER ---------- */
+  .cover{ background:var(--navy); color:var(--white); display:flex; flex-direction:column; justify-content:space-between; }
+  .cover::before{
+    content:''; position:absolute; inset:0;
+    background:
+      radial-gradient(ellipse 70% 50% at 20% 10%, rgba(184,137,43,0.24), transparent 60%),
+      radial-gradient(ellipse 60% 60% at 100% 0%, rgba(59,83,122,0.5), transparent 55%),
+      radial-gradient(ellipse 80% 80% at 50% 100%, rgba(11,22,38,0.9), transparent 60%);
+  }
+  .cover .brandline{ position:relative; display:flex; align-items:center; gap:8px; }
+  .cover .brandline svg{ width:24px; height:24px; }
+  .cover .brandline .word{ font-family:Cambria,Georgia,serif; font-weight:700; font-size:11.5pt; }
+  .cover .brandline .sub{ font-family:Calibri,sans-serif; font-weight:700; color:var(--gold); font-size:6pt; letter-spacing:.16em; margin-top:1pt; }
+  .cover .headline{ position:relative; }
+  .cover .headline .eyebrow{ color:var(--gold); }
+  .cover h1{ font-family:Cambria,Georgia,serif; font-weight:700; font-size:22pt; line-height:1.16; margin:0; letter-spacing:-0.01em; }
+  .cover p.tagline{ position:relative; font-size:9pt; color:#c7d0dd; margin:.14in 0 0; line-height:1.5; }
+
+  /* ---------- PANEL 2: BACK COVER ---------- */
+  .backcover{ display:flex; flex-direction:column; }
+  .backcover .qr{ width:.85in; height:.85in; border:1pt solid var(--mist); border-radius:6px; display:flex; align-items:center; justify-content:center; font-size:6.5pt; color:var(--slate); text-align:center; margin-bottom:.2in; }
+  .backcover .locs{ font-size:8pt; line-height:1.7; color:var(--charcoal); }
+  .backcover .fineprint{ margin-top:auto; font-size:6.6pt; color:var(--slate); line-height:1.5; }
+
+  /* ---------- PANEL 3: INSIDE FLAP (first seen on open) ---------- */
+  .flap{ background:#F7F8FA; }
+  .flap .stat{ display:flex; gap:.12in; align-items:baseline; margin-bottom:.12in; }
+  .flap .stat b{ font-family:Cambria,Georgia,serif; color:var(--navy); font-size:15pt; }
+  .flap .stat span{ font-size:7.6pt; color:var(--slate); text-transform:uppercase; letter-spacing:.05em; }
+  .flap ul{ margin:.18in 0 0; padding-left:.16in; font-size:8.4pt; line-height:1.6; }
+  .flap li{ margin-bottom:.09in; }
+
+  /* ---------- PANEL 5: CENTER — PROCESS ---------- */
+  .process{ background:var(--white); }
+  .process .step{ display:flex; gap:.12in; margin-bottom:.2in; }
+  .process .num{ font-family:Cambria,Georgia,serif; font-weight:700; color:var(--gold); font-size:13pt; flex-shrink:0; width:.3in; }
+  .process .step h3{ font-family:Cambria,Georgia,serif; font-weight:700; color:var(--navy); font-size:10pt; margin:0 0 .04in; }
+  .process .step p{ font-size:8pt; margin:0; line-height:1.5; }
+  .process .price{ margin-top:.22in; padding:.18in; background:#F7F8FA; border-radius:8px; border-left:3pt solid var(--gold); }
+  .process .price b{ font-family:Cambria,Georgia,serif; color:var(--navy); font-size:11pt; }
+  .process .price p{ font-size:7.6pt; margin:.04in 0 0; color:var(--charcoal); }
+
+  /* ---------- PANEL 6: SPECIALIZED + CTA ---------- */
+  .ctapanel{ background:var(--navy-2); color:var(--white); display:flex; flex-direction:column; }
+  .ctapanel h2.pt{ color:var(--white); }
+  .ctapanel p.pt{ color:#c7d0dd; }
+  .ctapanel .btn{ margin-top:.2in; background:var(--gold); color:var(--white); font-weight:700; font-size:8.6pt; padding:.12in .2in; border-radius:99px; text-align:center; }
+  .ctapanel .item{ margin-bottom:.14in; }
+  .ctapanel .item h4{ font-size:8.6pt; font-weight:700; color:var(--white); margin:0 0 .02in; }
+  .ctapanel .item p{ font-size:7.6pt; color:#93a1b8; margin:0; }
+
+  @media print{
+    body{ background:#fff; }
+    .stage{ padding:0; gap:0; }
+    .foldnote, .tag{ display:none; }
+    .sheet{ box-shadow:none; page-break-after:always; }
+    .sheet:last-child{ page-break-after:auto; }
+  }
+</style>
+</head>
+<body>
+<div class="stage">
+
+  <!-- ============ SIDE A — OUTSIDE (print first) ============ -->
+  <div>
+    <div class="sheet">
+      <div class="panel flap">
+        <span class="tag">Panel 3 — Inside flap (folds in first)</span>
+        <p class="eyebrow" style="color:var(--gold-2);">Why Families Choose Us</p>
+        <div class="stat"><b>10K+</b><span>Students guided since 2010</span></div>
+        <div class="stat"><b>$25M+</b><span>In scholarships earned</span></div>
+        <div class="stat"><b>9+</b><span>South Florida locations</span></div>
+        <ul>
+          <li>Published, transparent pricing — most firms in this industry don't publish rates at all</li>
+          <li>No guaranteed-admission claims — honest, realistic guidance instead</li>
+          <li>Strict AI ethics: technology for research and logistics only, never a student's voice</li>
+          <li>In-person across South Florida, virtual nationwide and internationally</li>
+        </ul>
+      </div>
+      <div class="panel backcover">
+        <span class="tag">Panel 2 — Back cover</span>
+        <h2 class="pt">Get in Touch</h2>
+        <div class="locs">
+          hello@parikhglobaladmissions.com<br/>
+          parikhglobaladmissions.com<br/><br/>
+          <b style="color:var(--navy);">Serving:</b><br/>
+          Miami · Aventura · Coral Gables · Pinecrest<br/>
+          Boca Raton · Palm Beach · Wellington · Coral Springs<br/>
+          + virtual, nationwide &amp; international
+        </div>
+        <div class="qr">QR code<br/>placeholder</div>
+        <p class="fineprint">© 2026 Parikh Global Admissions Group. All rights reserved.</p>
+      </div>
+      <div class="panel cover">
+        <span class="tag" style="color:#ccc;">Panel 1 — Front cover</span>
+        <div class="brandline">
+          <svg viewBox="0 0 64 64" fill="none"><circle cx="32" cy="32" r="29" stroke="white" stroke-width="2"/><ellipse cx="32" cy="32" rx="12.5" ry="29" stroke="white" stroke-width="1.4"/><line x1="3.5" y1="32" x2="60.5" y2="32" stroke="white" stroke-width="1.4"/><rect x="27.5" y="27.5" width="9" height="9" transform="rotate(45 32 32)" fill="#B8892B"/></svg>
+          <div><div class="word">PARIKH</div><div class="sub">GLOBAL ADMISSIONS GROUP</div></div>
+        </div>
+        <div class="headline">
+          <p class="eyebrow">College Admissions Counseling</p>
+          <h1>Your future doesn't start senior year.</h1>
+          <p class="tagline">Strategic, multi-year planning for students and families across South Florida and beyond.</p>
+        </div>
+      </div>
+    </div>
+    <p class="foldnote">Side A (outer) — print order left→right: Inside Flap · Back Cover · Front Cover. Front Cover is the rightmost panel.</p>
+  </div>
+
+  <!-- ============ SIDE B — INSIDE (print second, same sheet reverse) ============ -->
+  <div>
+    <div class="sheet">
+      <div class="panel" style="background:var(--white);">
+        <span class="tag">Panel 4 — Inside left</span>
+        <p class="eyebrow">Core Services</p>
+        <h2 class="pt">College &amp; Graduate School</h2>
+        <p class="pt">Undergraduate, transfer, graduate school, and BS/MD &amp; pre-professional admissions counseling.</p>
+        <h2 class="pt" style="margin-top:.22in;">High School Planning</h2>
+        <p class="pt">Course selection, rigor strategy, testing, and extracurricular planning for grades 8–12.</p>
+      </div>
+      <div class="panel process">
+        <span class="tag">Panel 5 — Center</span>
+        <p class="eyebrow">Our Process</p>
+        <div class="step"><span class="num">1</span><div><h3>Consultation</h3><p>A free conversation to understand where your student is now.</p></div></div>
+        <div class="step"><span class="num">2</span><div><h3>Strategy</h3><p>A multi-year plan across academics, testing, and activities.</p></div></div>
+        <div class="step"><span class="num">3</span><div><h3>Execution</h3><p>Steady advising through applications, essays, and decision day.</p></div></div>
+        <div class="price"><b>Plans start at $3,200/yr</b><p>Published, transparent pricing — confirmed together during your free consultation.</p></div>
+      </div>
+      <div class="panel ctapanel">
+        <span class="tag" style="color:#ccc;">Panel 6 — Inside right</span>
+        <p class="eyebrow">Specialized Pathways</p>
+        <div class="item"><h4>NCAA Recruiting</h4><p>Eligibility, timelines, and academic strategy for student-athletes.</p></div>
+        <div class="item"><h4>Neurodiverse Support</h4><p>Admissions strategy built around each student's learning profile.</p></div>
+        <div class="item"><h4>International Admissions</h4><p>U.S.-bound international students and globally-minded families.</p></div>
+        <h2 class="pt" style="margin-top:.18in;">Ready to Begin?</h2>
+        <p class="pt">Tell us about your student — we'll help map the path forward.</p>
+        <div class="btn">Schedule a Free Consultation</div>
+      </div>
+    </div>
+    <p class="foldnote">Side B (inside) — same physical sheet, printed on the reverse. Left→right: Inside Left · Center · Inside Right.</p>
+  </div>
+
+</div>
+</body>
+</html>
