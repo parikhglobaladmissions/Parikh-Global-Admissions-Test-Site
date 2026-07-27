@@ -1,4 +1,4 @@
-﻿# Parikh Global Admissions Group — robots.txt
+# NexGen Advising — robots.txt
 # Default: allow full crawl access for search engines and AI assistants/answer engines.
 
 User-agent: *
@@ -41,4 +41,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://parikhglobaladmissionsgroup.com/sitemap.xml
+Sitemap: https://nexgenadvising.com/sitemap.xml

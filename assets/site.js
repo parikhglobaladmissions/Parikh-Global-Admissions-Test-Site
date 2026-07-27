@@ -126,6 +126,33 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
+  var filterBar = document.getElementById('blog-filter-bar');
+  var grid = document.getElementById('blog-grid');
+  if (!filterBar || !grid) return;
+
+  var buttons = filterBar.querySelectorAll('[data-filter]');
+  var cards = grid.querySelectorAll('[data-category]');
+  var emptyState = document.getElementById('blog-empty-state');
+
+  buttons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      buttons.forEach(function (b) { b.classList.remove('is-active'); });
+      btn.classList.add('is-active');
+
+      var filter = btn.getAttribute('data-filter');
+      var visibleCount = 0;
+      cards.forEach(function (card) {
+        var show = filter === 'all' || card.getAttribute('data-category') === filter;
+        card.classList.toggle('hidden', !show);
+        if (show) visibleCount++;
+      });
+
+      if (emptyState) emptyState.classList.toggle('hidden', visibleCount > 0);
+    });
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
   var bar = document.getElementById('mobile-cta-bar');
   if (!bar) return;
 
