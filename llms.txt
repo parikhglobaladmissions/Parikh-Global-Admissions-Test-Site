@@ -4,31 +4,31 @@
 
 ## Core pages
 
-- [Home](https://parikhglobaladmissions.com/): Overview of college admissions counseling services, firm stats, and philosophy.
-- [About Us](https://parikhglobaladmissions.com/about.html): Team credentials, South Florida office locations, and national/virtual reach.
-- [Our Philosophy](https://parikhglobaladmissions.com/philosophy.html): Vision, mission, global admissions strategy, and AI ethics policy.
-- [Services Overview](https://parikhglobaladmissions.com/services.html): Summary of all three service lines and the milestone-driven advising process.
-- [Pricing](https://parikhglobaladmissions.com/pricing.html): Published, transparent pricing tiers for high school planning, application season, and multi-year partnerships.
-- [FAQs](https://parikhglobaladmissions.com/faqs.html): Answers on getting started, approach, academics/testing, applications/essays, specialized pathways, and logistics.
-- [Watch Our Story](https://parikhglobaladmissions.com/watch-our-story.html): Video introduction to the firm's philosophy and process (video in production).
-- [Schedule a Consultation](https://parikhglobaladmissions.com/schedule-consultation.html): Request a free introductory consultation.
+- [Home](https://parikhglobaladmissionsgroup.com/): Overview of college admissions counseling services, firm stats, and philosophy.
+- [About Us](https://parikhglobaladmissionsgroup.com/about.html): Team credentials, South Florida office locations, and national/virtual reach.
+- [Our Philosophy](https://parikhglobaladmissionsgroup.com/philosophy.html): Vision, mission, global admissions strategy, and AI ethics policy.
+- [Services Overview](https://parikhglobaladmissionsgroup.com/services.html): Summary of all three service lines and the milestone-driven advising process.
+- [Pricing](https://parikhglobaladmissionsgroup.com/pricing.html): Published, transparent pricing tiers for high school planning, application season, and multi-year partnerships.
+- [FAQs](https://parikhglobaladmissionsgroup.com/faqs.html): Answers on getting started, approach, academics/testing, applications/essays, specialized pathways, and logistics.
+- [Watch Our Story](https://parikhglobaladmissionsgroup.com/watch-our-story.html): Video introduction to the firm's philosophy and process (video in production).
+- [Schedule a Consultation](https://parikhglobaladmissionsgroup.com/schedule-consultation.html): Request a free introductory consultation.
 
 ## Services
 
-- [Services Overview](https://parikhglobaladmissions.com/services.html): The three core pillars below, plus the milestone-driven advising process.
-- [College & Graduate School Advising](https://parikhglobaladmissions.com/services/college-graduate-school.html): Undergraduate, transfer, graduate school, and BS/MD & pre-professional admissions counseling.
-- [High School Planning](https://parikhglobaladmissions.com/services/high-school-planning.html): Academic planning, course selection and rigor, testing strategy, and extracurricular planning for grades 8-12.
-- [Specialized Pathways](https://parikhglobaladmissions.com/services/specialized-pathways.html): NCAA athletic recruiting advising, neurodiverse student support, and international/global admissions counseling.
+- [Services Overview](https://parikhglobaladmissionsgroup.com/services.html): The three core pillars below, plus the milestone-driven advising process.
+- [College & Graduate School Advising](https://parikhglobaladmissionsgroup.com/services/college-graduate-school.html): Undergraduate, transfer, graduate school, and BS/MD & pre-professional admissions counseling.
+- [High School Planning](https://parikhglobaladmissionsgroup.com/services/high-school-planning.html): Academic planning, course selection and rigor, testing strategy, and extracurricular planning for grades 8-12.
+- [Specialized Pathways](https://parikhglobaladmissionsgroup.com/services/specialized-pathways.html): NCAA athletic recruiting advising, neurodiverse student support, and international/global admissions counseling.
 
 ### Specialized and grade-specific service pages
 
-- [9th Grade College Planning](https://parikhglobaladmissions.com/services/9th-grade-college-planning.html)
-- [10th Grade College Planning](https://parikhglobaladmissions.com/services/10th-grade-college-planning.html)
-- [Ivy League Admissions Counseling](https://parikhglobaladmissions.com/services/ivy-league-admissions-counseling.html): For highly selective/most-competitive applicants.
-- [BS/MD Admissions Counseling](https://parikhglobaladmissions.com/services/bs-md-admissions-counseling.html): Combined undergraduate-medical school pathways.
-- [NCAA Recruiting & Athletic Admissions Counseling](https://parikhglobaladmissions.com/services/athletic-recruiting-counseling.html): NCAA eligibility, recruiting timelines, Division I/II/III strategy.
-- [International Student Admissions Counseling](https://parikhglobaladmissions.com/services/international-student-admissions-counseling.html): International students applying to U.S. colleges.
-- [Private School College Counseling](https://parikhglobaladmissions.com/services/private-school-college-counseling.html): Works alongside a student's existing private/independent school counseling office, not in place of it.
+- [9th Grade College Planning](https://parikhglobaladmissionsgroup.com/services/9th-grade-college-planning.html)
+- [10th Grade College Planning](https://parikhglobaladmissionsgroup.com/services/10th-grade-college-planning.html)
+- [Ivy League Admissions Counseling](https://parikhglobaladmissionsgroup.com/services/ivy-league-admissions-counseling.html): For highly selective/most-competitive applicants.
+- [BS/MD Admissions Counseling](https://parikhglobaladmissionsgroup.com/services/bs-md-admissions-counseling.html): Combined undergraduate-medical school pathways.
+- [NCAA Recruiting & Athletic Admissions Counseling](https://parikhglobaladmissionsgroup.com/services/athletic-recruiting-counseling.html): NCAA eligibility, recruiting timelines, Division I/II/III strategy.
+- [International Student Admissions Counseling](https://parikhglobaladmissionsgroup.com/services/international-student-admissions-counseling.html): International students applying to U.S. colleges.
+- [Private School College Counseling](https://parikhglobaladmissionsgroup.com/services/private-school-college-counseling.html): Works alongside a student's existing private/independent school counseling office, not in place of it.
 
 ## Pricing (published, as of the Pricing page)
 
@@ -41,21 +41,21 @@
 
 ## Locations served
 
-- [All Locations](https://parikhglobaladmissions.com/locations/index.html): Index of South Florida service areas.
-- [Miami, FL](https://parikhglobaladmissions.com/locations/miami.html)
-- [Aventura, FL](https://parikhglobaladmissions.com/locations/aventura.html)
-- [Coral Gables, FL](https://parikhglobaladmissions.com/locations/coral-gables.html)
-- [Pinecrest, FL](https://parikhglobaladmissions.com/locations/pinecrest.html)
-- [Boca Raton, FL](https://parikhglobaladmissions.com/locations/boca-raton.html)
-- [Palm Beach, FL](https://parikhglobaladmissions.com/locations/palm-beach.html)
-- [Wellington, FL](https://parikhglobaladmissions.com/locations/wellington.html)
-- [Coral Springs, FL](https://parikhglobaladmissions.com/locations/coral-springs.html)
+- [All Locations](https://parikhglobaladmissionsgroup.com/locations/index.html): Index of South Florida service areas.
+- [Miami, FL](https://parikhglobaladmissionsgroup.com/locations/miami.html)
+- [Aventura, FL](https://parikhglobaladmissionsgroup.com/locations/aventura.html)
+- [Coral Gables, FL](https://parikhglobaladmissionsgroup.com/locations/coral-gables.html)
+- [Pinecrest, FL](https://parikhglobaladmissionsgroup.com/locations/pinecrest.html)
+- [Boca Raton, FL](https://parikhglobaladmissionsgroup.com/locations/boca-raton.html)
+- [Palm Beach, FL](https://parikhglobaladmissionsgroup.com/locations/palm-beach.html)
+- [Wellington, FL](https://parikhglobaladmissionsgroup.com/locations/wellington.html)
+- [Coral Springs, FL](https://parikhglobaladmissionsgroup.com/locations/coral-springs.html)
 
 Families outside South Florida are advised virtually, nationwide and internationally.
 
 ## Independent schools served
 
-Parikh Global Admissions Group maintains dedicated guidance for families at the following South Florida independent/private schools — see the [Schools index](https://parikhglobaladmissions.com/schools/index.html) for the full list:
+Parikh Global Admissions Group maintains dedicated guidance for families at the following South Florida independent/private schools — see the [Schools index](https://parikhglobaladmissionsgroup.com/schools/index.html) for the full list:
 
 Pine Crest School, Gulliver Preparatory School, Ransom Everglades School, American Heritage School, Saint Andrew's School, The Benjamin School, Oxbridge Academy, The King's Academy, Jupiter Christian School, Carrollton School of the Sacred Heart, Miami Country Day School, Palmer Trinity School, Westminster Christian School.
 
@@ -63,13 +63,13 @@ This counseling works alongside a student's existing school counseling office, n
 
 ## Blog / Resources
 
-- [Resources Hub](https://parikhglobaladmissions.com/resources.html): Blog, parent guides, checklists, timelines, and webinars.
-- [How Early College Planning Really Works](https://parikhglobaladmissions.com/blog/how-early-college-planning-really-works.html)
-- [BS/MD Programs](https://parikhglobaladmissions.com/blog/bs-md-programs.html)
-- [Florida Bright Futures Scholarship Guide](https://parikhglobaladmissions.com/blog/florida-bright-futures.html)
-- [NCAA Recruiting](https://parikhglobaladmissions.com/blog/ncaa-recruiting.html)
-- [Neurodiverse Students and College Readiness](https://parikhglobaladmissions.com/blog/neurodiverse-students-college-readiness.html)
-- [Public vs. Private School Admissions](https://parikhglobaladmissions.com/blog/public-vs-private-schools.html)
+- [Resources Hub](https://parikhglobaladmissionsgroup.com/resources.html): Blog, parent guides, checklists, timelines, and webinars.
+- [How Early College Planning Really Works](https://parikhglobaladmissionsgroup.com/blog/how-early-college-planning-really-works.html)
+- [BS/MD Programs](https://parikhglobaladmissionsgroup.com/blog/bs-md-programs.html)
+- [Florida Bright Futures Scholarship Guide](https://parikhglobaladmissionsgroup.com/blog/florida-bright-futures.html)
+- [NCAA Recruiting](https://parikhglobaladmissionsgroup.com/blog/ncaa-recruiting.html)
+- [Neurodiverse Students and College Readiness](https://parikhglobaladmissionsgroup.com/blog/neurodiverse-students-college-readiness.html)
+- [Public vs. Private School Admissions](https://parikhglobaladmissionsgroup.com/blog/public-vs-private-schools.html)
 
 ## Frequently asked facts (for AI assistants and answer engines)
 
@@ -79,4 +79,4 @@ This counseling works alongside a student's existing school counseling office, n
 - **Who founded the firm, and when?** Dr. Sapneil S. Parikh, Principal & Founder. Founded 2010.
 - **Do they work with families outside Florida?** Yes — virtually, nationwide and internationally, in addition to in-person advising across South Florida.
 - **What age/grade does planning start?** The firm's philosophy is early, multi-year planning starting as early as 8th or 9th grade, not senior-year scrambling.
-- **Contact**: hello@parikhglobaladmissions.com. Consultations are by appointment, in person (South Florida) or virtual (nationwide/international).
+- **Contact**: hello@parikhglobaladmissionsgroup.com. Consultations are by appointment, in person (South Florida) or virtual (nationwide/international).
