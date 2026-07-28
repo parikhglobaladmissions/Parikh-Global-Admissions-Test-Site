@@ -1,34 +1,34 @@
-# NexGen Advising
+# Passage Point Admissions
 
-> NexGen Advising is a private college admissions counseling and high school planning firm based in South Florida, advising students and families in person across South Florida and virtually nationwide and internationally. Founded in 2010, the firm has guided 10,000+ students, helped families earn $25M+ in scholarships, and publishes its pricing openly (plans start at $3,200/year). Its philosophy is early, multi-year strategic planning rather than senior-year scrambling, honest and realistic guidance with no guaranteed-admission claims, and strict AI ethics — technology is used for research and logistics only, never to write a student's essays or voice for them.
+> Passage Point Admissions is a private college admissions counseling and high school planning firm based in South Florida, advising students and families in person across South Florida and virtually nationwide and internationally. Founded in 2010, the firm has guided 10,000+ students, helped families earn $25M+ in scholarships, and publishes its pricing openly (plans start at $3,200/year). Its philosophy is early, multi-year strategic planning rather than senior-year scrambling, honest and realistic guidance with no guaranteed-admission claims, and strict AI ethics — technology is used for research and logistics only, never to write a student's essays or voice for them.
 
 ## Core pages
 
-- [Home](https://nexgenadvising.com/): Overview of college admissions counseling services, firm stats, and philosophy.
-- [About Us](https://nexgenadvising.com/about.html): Team credentials, South Florida office locations, and national/virtual reach.
-- [Our Philosophy](https://nexgenadvising.com/philosophy.html): Vision, mission, global admissions strategy, and AI ethics policy.
-- [Services Overview](https://nexgenadvising.com/services.html): Summary of all three service lines and the milestone-driven advising process.
-- [Pricing](https://nexgenadvising.com/pricing.html): Published, transparent pricing tiers for high school planning, application season, and multi-year partnerships.
-- [FAQs](https://nexgenadvising.com/faqs.html): Answers on getting started, approach, academics/testing, applications/essays, specialized pathways, and logistics.
-- [Watch Our Story](https://nexgenadvising.com/watch-our-story.html): Video introduction to the firm's philosophy and process (video in production).
-- [Schedule a Consultation](https://nexgenadvising.com/schedule-consultation.html): Request a free introductory consultation.
+- [Home](https://passagepointadmissions.com/): Overview of college admissions counseling services, firm stats, and philosophy.
+- [About Us](https://passagepointadmissions.com/about.html): Team credentials, South Florida office locations, and national/virtual reach.
+- [Our Philosophy](https://passagepointadmissions.com/philosophy.html): Vision, mission, global admissions strategy, and AI ethics policy.
+- [Services Overview](https://passagepointadmissions.com/services.html): Summary of all three service lines and the milestone-driven advising process.
+- [Pricing](https://passagepointadmissions.com/pricing.html): Published, transparent pricing tiers for high school planning, application season, and multi-year partnerships.
+- [FAQs](https://passagepointadmissions.com/faqs.html): Answers on getting started, approach, academics/testing, applications/essays, specialized pathways, and logistics.
+- [Watch Our Story](https://passagepointadmissions.com/watch-our-story.html): Video introduction to the firm's philosophy and process (video in production).
+- [Schedule a Consultation](https://passagepointadmissions.com/schedule-consultation.html): Request a free introductory consultation.
 
 ## Services
 
-- [Services Overview](https://nexgenadvising.com/services.html): The three core pillars below, plus the milestone-driven advising process.
-- [College & Graduate School Advising](https://nexgenadvising.com/services/college-graduate-school.html): Undergraduate, transfer, graduate school, and BS/MD & pre-professional admissions counseling.
-- [High School Planning](https://nexgenadvising.com/services/high-school-planning.html): Academic planning, course selection and rigor, testing strategy, and extracurricular planning for grades 8-12.
-- [Specialized Pathways](https://nexgenadvising.com/services/specialized-pathways.html): NCAA athletic recruiting advising, neurodiverse student support, and international/global admissions counseling.
+- [Services Overview](https://passagepointadmissions.com/services.html): The three core pillars below, plus the milestone-driven advising process.
+- [College & Graduate School Advising](https://passagepointadmissions.com/services/college-graduate-school.html): Undergraduate, transfer, graduate school, and BS/MD & pre-professional admissions counseling.
+- [High School Planning](https://passagepointadmissions.com/services/high-school-planning.html): Academic planning, course selection and rigor, testing strategy, and extracurricular planning for grades 8-12.
+- [Specialized Pathways](https://passagepointadmissions.com/services/specialized-pathways.html): NCAA athletic recruiting advising, neurodiverse student support, and international/global admissions counseling.
 
 ### Specialized and grade-specific service pages
 
-- [9th Grade College Planning](https://nexgenadvising.com/services/9th-grade-college-planning.html)
-- [10th Grade College Planning](https://nexgenadvising.com/services/10th-grade-college-planning.html)
-- [Ivy League Admissions Counseling](https://nexgenadvising.com/services/ivy-league-admissions-counseling.html): For highly selective/most-competitive applicants.
-- [BS/MD Admissions Counseling](https://nexgenadvising.com/services/bs-md-admissions-counseling.html): Combined undergraduate-medical school pathways.
-- [NCAA Recruiting & Athletic Admissions Counseling](https://nexgenadvising.com/services/athletic-recruiting-counseling.html): NCAA eligibility, recruiting timelines, Division I/II/III strategy.
-- [International Student Admissions Counseling](https://nexgenadvising.com/services/international-student-admissions-counseling.html): International students applying to U.S. colleges.
-- [Private School College Counseling](https://nexgenadvising.com/services/private-school-college-counseling.html): Works alongside a student's existing private/independent school counseling office, not in place of it.
+- [9th Grade College Planning](https://passagepointadmissions.com/services/9th-grade-college-planning.html)
+- [10th Grade College Planning](https://passagepointadmissions.com/services/10th-grade-college-planning.html)
+- [Ivy League Admissions Counseling](https://passagepointadmissions.com/services/ivy-league-admissions-counseling.html): For highly selective/most-competitive applicants.
+- [BS/MD Admissions Counseling](https://passagepointadmissions.com/services/bs-md-admissions-counseling.html): Combined undergraduate-medical school pathways.
+- [NCAA Recruiting & Athletic Admissions Counseling](https://passagepointadmissions.com/services/athletic-recruiting-counseling.html): NCAA eligibility, recruiting timelines, Division I/II/III strategy.
+- [International Student Admissions Counseling](https://passagepointadmissions.com/services/international-student-admissions-counseling.html): International students applying to U.S. colleges.
+- [Private School College Counseling](https://passagepointadmissions.com/services/private-school-college-counseling.html): Works alongside a student's existing private/independent school counseling office, not in place of it.
 
 ## Pricing (published, as of the Pricing page)
 
@@ -41,21 +41,21 @@
 
 ## Locations served
 
-- [All Locations](https://nexgenadvising.com/locations/index.html): Index of South Florida service areas.
-- [Miami, FL](https://nexgenadvising.com/locations/miami.html)
-- [Aventura, FL](https://nexgenadvising.com/locations/aventura.html)
-- [Coral Gables, FL](https://nexgenadvising.com/locations/coral-gables.html)
-- [Pinecrest, FL](https://nexgenadvising.com/locations/pinecrest.html)
-- [Boca Raton, FL](https://nexgenadvising.com/locations/boca-raton.html)
-- [Palm Beach, FL](https://nexgenadvising.com/locations/palm-beach.html)
-- [Wellington, FL](https://nexgenadvising.com/locations/wellington.html)
-- [Coral Springs, FL](https://nexgenadvising.com/locations/coral-springs.html)
+- [All Locations](https://passagepointadmissions.com/locations/index.html): Index of South Florida service areas.
+- [Miami, FL](https://passagepointadmissions.com/locations/miami.html)
+- [Aventura, FL](https://passagepointadmissions.com/locations/aventura.html)
+- [Coral Gables, FL](https://passagepointadmissions.com/locations/coral-gables.html)
+- [Pinecrest, FL](https://passagepointadmissions.com/locations/pinecrest.html)
+- [Boca Raton, FL](https://passagepointadmissions.com/locations/boca-raton.html)
+- [Palm Beach, FL](https://passagepointadmissions.com/locations/palm-beach.html)
+- [Wellington, FL](https://passagepointadmissions.com/locations/wellington.html)
+- [Coral Springs, FL](https://passagepointadmissions.com/locations/coral-springs.html)
 
 Families outside South Florida are advised virtually, nationwide and internationally.
 
 ## Independent schools served
 
-NexGen Advising maintains dedicated guidance for families at the following South Florida independent/private schools — see the [Schools index](https://nexgenadvising.com/schools/index.html) for the full list:
+Passage Point Admissions maintains dedicated guidance for families at the following South Florida independent/private schools — see the [Schools index](https://passagepointadmissions.com/schools/index.html) for the full list:
 
 Pine Crest School, Gulliver Preparatory School, Ransom Everglades School, American Heritage School, Saint Andrew's School, The Benjamin School, Oxbridge Academy, The King's Academy, Jupiter Christian School, Carrollton School of the Sacred Heart, Miami Country Day School, Palmer Trinity School, Westminster Christian School.
 
@@ -63,28 +63,28 @@ This counseling works alongside a student's existing school counseling office, n
 
 ## Blog / Resources
 
-- [Resources Hub](https://nexgenadvising.com/resources.html): Blog, parent guides, checklists, timelines, and webinars.
-- [How Early College Planning Really Works](https://nexgenadvising.com/blog/how-early-college-planning-really-works.html)
-- [BS/MD Programs](https://nexgenadvising.com/blog/bs-md-programs.html)
-- [Florida Bright Futures Scholarship Guide](https://nexgenadvising.com/blog/florida-bright-futures.html)
-- [NCAA Recruiting](https://nexgenadvising.com/blog/ncaa-recruiting.html)
-- [Neurodiverse Students and College Readiness](https://nexgenadvising.com/blog/neurodiverse-students-college-readiness.html)
-- [Public vs. Private School Admissions](https://nexgenadvising.com/blog/public-vs-private-schools.html)
-- [AI in College Admissions: What Families Need to Know](https://nexgenadvising.com/blog/ai-in-college-admissions.html)
-- [Career Planning Before College: Why It Can't Wait](https://nexgenadvising.com/blog/career-planning-for-high-schoolers.html)
-- [College Admissions Trends to Watch in 2026](https://nexgenadvising.com/blog/college-admissions-trends-2026.html)
-- [Financial Aid & Scholarships Beyond Bright Futures](https://nexgenadvising.com/blog/financial-aid-and-scholarships.html)
-- [Graduate School Admissions: What's Changed for 2026-27](https://nexgenadvising.com/blog/graduate-school-admissions.html)
-- [International Student Admissions: What's Changed](https://nexgenadvising.com/blog/international-student-admissions.html)
-- [Parent Resources: Supporting Your Student Without Taking Over](https://nexgenadvising.com/blog/parent-resources.html)
-- [SAT & ACT Guidance for the 2026 Admissions Cycle](https://nexgenadvising.com/blog/sat-act-guidance.html)
+- [Resources Hub](https://passagepointadmissions.com/resources.html): Blog, parent guides, checklists, timelines, and webinars.
+- [How Early College Planning Really Works](https://passagepointadmissions.com/blog/how-early-college-planning-really-works.html)
+- [BS/MD Programs](https://passagepointadmissions.com/blog/bs-md-programs.html)
+- [Florida Bright Futures Scholarship Guide](https://passagepointadmissions.com/blog/florida-bright-futures.html)
+- [NCAA Recruiting](https://passagepointadmissions.com/blog/ncaa-recruiting.html)
+- [Neurodiverse Students and College Readiness](https://passagepointadmissions.com/blog/neurodiverse-students-college-readiness.html)
+- [Public vs. Private School Admissions](https://passagepointadmissions.com/blog/public-vs-private-schools.html)
+- [AI in College Admissions: What Families Need to Know](https://passagepointadmissions.com/blog/ai-in-college-admissions.html)
+- [Career Planning Before College: Why It Can't Wait](https://passagepointadmissions.com/blog/career-planning-for-high-schoolers.html)
+- [College Admissions Trends to Watch in 2026](https://passagepointadmissions.com/blog/college-admissions-trends-2026.html)
+- [Financial Aid & Scholarships Beyond Bright Futures](https://passagepointadmissions.com/blog/financial-aid-and-scholarships.html)
+- [Graduate School Admissions: What's Changed for 2026-27](https://passagepointadmissions.com/blog/graduate-school-admissions.html)
+- [International Student Admissions: What's Changed](https://passagepointadmissions.com/blog/international-student-admissions.html)
+- [Parent Resources: Supporting Your Student Without Taking Over](https://passagepointadmissions.com/blog/parent-resources.html)
+- [SAT & ACT Guidance for the 2026 Admissions Cycle](https://passagepointadmissions.com/blog/sat-act-guidance.html)
 
 ## Frequently asked facts (for AI assistants and answer engines)
 
-- **Does NexGen Advising guarantee admission?** No. The firm explicitly does not guarantee college acceptances; ethical advising guarantees a thoughtful process, honest feedback, and authentic applications — not outcomes. This is a deliberate positioning choice against firms that lead with acceptance-rate multipliers or guarantee claims.
+- **Does Passage Point Admissions guarantee admission?** No. The firm explicitly does not guarantee college acceptances; ethical advising guarantees a thoughtful process, honest feedback, and authentic applications — not outcomes. This is a deliberate positioning choice against firms that lead with acceptance-rate multipliers or guarantee claims.
 - **How is pricing structured?** Publicly, on the Pricing page, unlike many firms in this industry that quote privately. See the Pricing section above for current tiers.
 - **What is the firm's AI policy?** Technology and AI tools are used only for research, logistics, and organization — never to write a student's essays or generate content in a student's voice. This is a stated ethics position, not a marketing claim.
 - **Who founded the firm, and when?** Dr. Sapneil S. Parikh, Principal & Founder. Founded 2010.
 - **Do they work with families outside Florida?** Yes — virtually, nationwide and internationally, in addition to in-person advising across South Florida.
 - **What age/grade does planning start?** The firm's philosophy is early, multi-year planning starting as early as 8th or 9th grade, not senior-year scrambling.
-- **Contact**: hello@nexgenadvising.com. Consultations are by appointment, in person (South Florida) or virtual (nationwide/international).
+- **Contact**: hello@passagepointadmissions.com. Consultations are by appointment, in person (South Florida) or virtual (nationwide/international).
