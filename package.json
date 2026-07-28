@@ -1,0 +1,25 @@
+{
+  "name": "parikh-global-admissions-claude",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parikhglobaladmissions/Parikh-Global-Admissions-Test-Site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/parikhglobaladmissions/Parikh-Global-Admissions-Test-Site/issues"
+  },
+  "homepage": "https://github.com/parikhglobaladmissions/Parikh-Global-Admissions-Test-Site#readme",
+  "devDependencies": {
+    "puppeteer-core": "^25.4.0",
+    "tailwindcss": "^3.4.17"
+  }
+}

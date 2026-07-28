@@ -21,3 +21,6 @@ serve.ps1
 # OS / editor cruft
 Thumbs.db
 .DS_Store
+
+# Node dependencies — reinstall via npm install
+node_modules/
