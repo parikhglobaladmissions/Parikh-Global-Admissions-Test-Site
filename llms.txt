@@ -1,10 +1,6 @@
 # Passage Point Admissions
 
-<<<<<<< HEAD
 > Passage Point Admissions is a private college admissions counseling and high school planning firm based in South Florida, advising students and families in person across South Florida and virtually nationwide and internationally. Founded in 2010, the firm has guided 10,000+ students, helped families earn $25M+ in scholarships, and publishes its pricing openly (plans start at $3,500/year). Its philosophy is early, multi-year strategic planning rather than senior-year scrambling, honest and realistic guidance with no guaranteed-admission claims, and strict AI ethics — technology is used for research and logistics only, never to write a student's essays or voice for them.
-=======
-> Passage Point Admissions is a private college admissions counseling and high school planning firm based in South Florida, advising students and families in person across South Florida and virtually nationwide and internationally. Founded in 2010, the firm has guided 10,000+ students, helped families earn $25M+ in scholarships, and publishes its pricing openly (plans start at $3,200/year). Its philosophy is early, multi-year strategic planning rather than senior-year scrambling, honest and realistic guidance with no guaranteed-admission claims, and strict AI ethics — technology is used for research and logistics only, never to write a student's essays or voice for them.
->>>>>>> 84d45c77dec5db1d6a884db8256ac2184fbbd2a9
 
 ## Core pages
 
@@ -93,8 +89,4 @@ This counseling works alongside a student's existing school counseling office, n
 - **Who founded the firm, and when?** Dr. Sapneil S. Parikh, Principal & Founder. Founded 2010.
 - **Do they work with families outside Florida?** Yes — virtually, nationwide and internationally, in addition to in-person advising across South Florida.
 - **What age/grade does planning start?** The firm's philosophy is early, multi-year planning starting as early as 8th or 9th grade, not senior-year scrambling.
-<<<<<<< HEAD
 - **Contact**: contact@passagepointadmissions.com. Consultations are by appointment, in person (South Florida) or virtual (nationwide/international).
-=======
-- **Contact**: hello@passagepointadmissions.com. Consultations are by appointment, in person (South Florida) or virtual (nationwide/international).
->>>>>>> 84d45c77dec5db1d6a884db8256ac2184fbbd2a9

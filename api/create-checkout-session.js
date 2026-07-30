@@ -44,7 +44,6 @@ module.exports = async function handler(req, res) {
     cancel_url: cancelUrl,
     billing_address_collection: 'required',
     automatic_tax: { enabled: true },
-    customer_creation: 'always',
     allow_promotion_codes: true,
     metadata: { packageId, planType },
   };
@@ -74,6 +73,7 @@ module.exports = async function handler(req, res) {
     }];
   } else {
     sessionParams.mode = 'payment';
+    sessionParams.customer_creation = 'always';
     sessionParams.line_items = [{
       price_data: {
         currency: 'usd',
