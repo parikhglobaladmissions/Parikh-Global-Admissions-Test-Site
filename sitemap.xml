@@ -143,6 +143,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://passagepointadmissions.com/blog/pathway-to-florida-private-schools.html</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://passagepointadmissions.com/blog/florida-bright-futures.html</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>yearly</changefreq>
@@ -225,6 +231,12 @@
     <loc>https://passagepointadmissions.com/parent-guides/index.html</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://passagepointadmissions.com/parent-guides/florida-private-school-admissions-guide.html</loc>
+    <lastmod>2026-07-30</lastmod>
+    <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
