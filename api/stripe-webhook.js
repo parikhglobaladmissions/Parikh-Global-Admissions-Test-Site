@@ -153,6 +153,20 @@ module.exports = async function handler(req, res) {
     } catch (err) {
       console.error('Error syncing completed payment to HubSpot', err);
     }
+
+    // Checkout Session's subscription_data doesn't accept cancel_at at creation
+    // time, so the installment plan is capped here instead, once the real
+    // subscription exists.
+    if (planType === 'installment' && session.subscription) {
+      try {
+        const pkg = PACKAGES[packageId];
+        const months = pkg ? (pkg.installmentMonths || INSTALLMENT_MONTHS) : INSTALLMENT_MONTHS;
+        const cancelAt = Math.floor(Date.now() / 1000) + months * 30 * 24 * 60 * 60;
+        await stripe.subscriptions.update(session.subscription, { cancel_at: cancelAt });
+      } catch (err) {
+        console.error('Error capping installment subscription with cancel_at', err);
+      }
+    }
   }
 
   // Always acknowledge receipt once the signature checks out — the payment

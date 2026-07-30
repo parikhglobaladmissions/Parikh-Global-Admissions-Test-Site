@@ -51,11 +51,9 @@ module.exports = async function handler(req, res) {
   if (planType === 'installment') {
     const months = pkg.installmentMonths || INSTALLMENT_MONTHS;
     const installmentAmount = Math.ceil(pkg.amount / months);
-    const cancelAt = Math.floor(Date.now() / 1000) + months * 30 * 24 * 60 * 60;
 
     sessionParams.mode = 'subscription';
     sessionParams.subscription_data = {
-      cancel_at: cancelAt,
       metadata: { packageId, planType },
     };
     sessionParams.line_items = [{
