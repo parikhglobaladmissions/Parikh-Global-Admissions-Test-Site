@@ -37,10 +37,13 @@
   /* ---------- BACK ---------- */
   .back{ background:var(--navy); }
   .back .safe{ display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; }
-  .back svg.mark{ width:.62in; height:.62in; }
-  .back .word{ font-family:Cambria,Georgia,serif; font-weight:700; color:var(--white); font-size:10.5pt; letter-spacing:.03em; margin-top:8pt; }
+  .back svg.mark{ width:.5in; height:.5in; }
+  .back .word{ font-family:Cambria,Georgia,serif; font-weight:700; color:var(--white); font-size:10.5pt; letter-spacing:.03em; margin-top:6pt; }
   .back .sub{ font-family:Calibri,sans-serif; font-weight:700; color:var(--gold); font-size:5.5pt; letter-spacing:.18em; margin-top:2pt; }
-  .back .tagline{ font-family:Calibri,sans-serif; font-style:italic; color:#c7d0dd; font-size:6.5pt; margin-top:10pt; letter-spacing:.02em; }
+  .back .tagline{ font-family:Calibri,sans-serif; font-style:italic; color:#c7d0dd; font-size:6.5pt; margin-top:7pt; letter-spacing:.02em; }
+  .back .qr{ margin-top:7pt; }
+  .back .qr img{ width:.38in; height:.38in; background:#fff; padding:2.5pt; border-radius:4pt; display:block; margin:0 auto; }
+  .back .qr .cap{ font-family:Calibri,sans-serif; font-size:4.5pt; font-weight:700; color:#c7d0dd; letter-spacing:.08em; text-transform:uppercase; margin-top:3pt; }
 
   .label{ font-family:Calibri,sans-serif; font-size:8px; color:#888; text-align:center; margin-top:4px; }
 
@@ -62,12 +65,12 @@
       <div class="safe">
         <div class="brandline">
           <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="32" cy="32" r="29" stroke="#12233F" stroke-width="2"/>
-            <ellipse cx="32" cy="32" rx="12.5" ry="29" stroke="#12233F" stroke-width="1.6"/>
-            <line x1="3.5" y1="32" x2="60.5" y2="32" stroke="#12233F" stroke-width="1.6"/>
-            <path d="M6 20 Q32 32 58 20" stroke="#12233F" stroke-width="1.1" fill="none"/>
-            <path d="M6 44 Q32 32 58 44" stroke="#12233F" stroke-width="1.1" fill="none"/>
-            <rect x="27.5" y="27.5" width="9" height="9" transform="rotate(45 32 32)" fill="#B8892B"/>
+            <circle cx="32" cy="32" r="29" stroke="#12233F" stroke-width="1.5"/>
+            <ellipse cx="32" cy="32" rx="13" ry="29" stroke="#12233F" stroke-width="1.2"/>
+            <line x1="3" y1="32" x2="61" y2="32" stroke="#12233F" stroke-width="1.2"/>
+            <path d="M7 19 Q32 32 57 19" stroke="#12233F" stroke-width="0.85" fill="none"/>
+            <path d="M7 45 Q32 32 57 45" stroke="#12233F" stroke-width="0.85" fill="none"/>
+            <rect x="27" y="27" width="10" height="10" transform="rotate(45 32 32)" fill="#B8892B"/>
           </svg>
           <div>
             <div class="word">PASSAGE POINT</div>
@@ -81,7 +84,11 @@
         </div>
 
         <div class="contact">
+<<<<<<< HEAD
+          <div class="row"><b>Email</b> contact@passagepointadmissions.com</div>
+=======
           <div class="row"><b>Email</b> hello@passagepointadmissions.com</div>
+>>>>>>> 84d45c77dec5db1d6a884db8256ac2184fbbd2a9
           <div class="row"><b>Web</b> passagepointadmissions.com</div>
         </div>
       </div>
@@ -93,16 +100,20 @@
     <div class="card back">
       <div class="safe">
         <svg class="mark" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="32" cy="32" r="29" stroke="white" stroke-width="2"/>
-          <ellipse cx="32" cy="32" rx="12.5" ry="29" stroke="white" stroke-width="1.4"/>
-          <line x1="3.5" y1="32" x2="60.5" y2="32" stroke="white" stroke-width="1.4"/>
-          <path d="M6 20 Q32 32 58 20" stroke="white" stroke-width="0.9" fill="none"/>
-          <path d="M6 44 Q32 32 58 44" stroke="white" stroke-width="0.9" fill="none"/>
-          <rect x="27.5" y="27.5" width="9" height="9" transform="rotate(45 32 32)" fill="#B8892B"/>
+          <circle cx="32" cy="32" r="29" stroke="white" stroke-width="1.5"/>
+          <ellipse cx="32" cy="32" rx="13" ry="29" stroke="white" stroke-width="1.2"/>
+          <line x1="3" y1="32" x2="61" y2="32" stroke="white" stroke-width="1.2"/>
+          <path d="M7 19 Q32 32 57 19" stroke="white" stroke-width="0.7" fill="none"/>
+          <path d="M7 45 Q32 32 57 45" stroke="white" stroke-width="0.7" fill="none"/>
+          <rect x="27" y="27" width="10" height="10" transform="rotate(45 32 32)" fill="#B8892B"/>
         </svg>
         <div class="word">PASSAGE POINT</div>
         <div class="sub">ADMISSIONS</div>
         <div class="tagline">Strategic college admissions counseling, since 2010</div>
+        <div class="qr">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAAEsAQMAAABDsxw2AAAABlBMVEX///8AAABVwtN+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAACOUlEQVRoge2au5HDMAxE4XGgUCWoFJZml6ZSVIJCBx7jACxI3WcuOOicLROK1FNCYJZLUKJoLxFp++T9zYYPG95WmfPtLsSK2N1m5Pqyh7aLXDQmpme8mB3374mVsWaLfn3FeHoapqs9WHdv2/y4xgOx05jn8oSc3vwT74n9G+aaIegX1Sc0hNhprGuIrrN6ktt3u0fhF6kh9icMDRLtGuJR2EOiTUPyLbEqdrQbfAV2QDUcWvK9EfsLFqscUmFJnjm9+YPhSw8LsTq2HlIx7HE0k+oHArATK2KRy1OePgQb3ub2OFtGgdh7MRn7oQD3Wfi9LSaxlRIrYdrNsoUDyiIjCkvYarDEStgx23NZmh4u2se38CHEapgssVHaw+xvQ0MEG+VxeiFWxPqRz1f/Id1F+2ftk+8jVsOiHhRH68ACRxQ0ShoZBWI1bBSLYfNUe9U4NeSi0BBiRSxy+oVwxGHFVx/+LbGIArEKlvUgFOW/+DecAbuGECthcuyA7fBvPzWEWAmLEaLQUGYLDRn+LTWE2HuxuysKbqBg8xQhzOK+dqkhVsNshNo9Fj2L+tFnUV+IncC2OS/4hs1DFbRh18ybFGIVbDRPbtg8f/cUKPr4LYBYCcNKK66nUd6UUX/L8KxCrIr5bF5LS7rpJe9MtrTVxE5gLX+uuPd/V7JqHHU43JnsxM5j3/1bZH1mP7HT2Cf/htt/1eE4iFWx1BCfzlloiB+xh2YTK2JoHYMRjii4lnz9SYDYm7APAil7zI7gCHMAAAAASUVORK5CYII=" alt="QR code to schedule a consultation" width="40" height="40"/>
+          <div class="cap">Scan to Schedule</div>
+        </div>
       </div>
     </div>
     <p class="label">Back</p>

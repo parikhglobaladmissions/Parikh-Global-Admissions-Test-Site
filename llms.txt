@@ -1,6 +1,10 @@
 # Passage Point Admissions
 
+<<<<<<< HEAD
+> Passage Point Admissions is a private college admissions counseling and high school planning firm based in South Florida, advising students and families in person across South Florida and virtually nationwide and internationally. Founded in 2010, the firm has guided 10,000+ students, helped families earn $25M+ in scholarships, and publishes its pricing openly (plans start at $3,500/year). Its philosophy is early, multi-year strategic planning rather than senior-year scrambling, honest and realistic guidance with no guaranteed-admission claims, and strict AI ethics — technology is used for research and logistics only, never to write a student's essays or voice for them.
+=======
 > Passage Point Admissions is a private college admissions counseling and high school planning firm based in South Florida, advising students and families in person across South Florida and virtually nationwide and internationally. Founded in 2010, the firm has guided 10,000+ students, helped families earn $25M+ in scholarships, and publishes its pricing openly (plans start at $3,200/year). Its philosophy is early, multi-year strategic planning rather than senior-year scrambling, honest and realistic guidance with no guaranteed-admission claims, and strict AI ethics — technology is used for research and logistics only, never to write a student's essays or voice for them.
+>>>>>>> 84d45c77dec5db1d6a884db8256ac2184fbbd2a9
 
 ## Core pages
 
@@ -32,10 +36,12 @@
 
 ## Pricing (published, as of the Pricing page)
 
-- **Foundations** (grades 8–10 focus): $3,200/yr in-person, $2,600/yr virtual. Monthly advising cadence.
-- **Core Strategy** (2-year plan): $8,900 in-person, $7,200 virtual. Biweekly-to-weekly cadence, heaviest during senior application season.
-- **Comprehensive** (flagship, full 8th–12th grade partnership, one-time): $16,500 in-person, $13,900 virtual.
-- **Hourly / à la carte**: $195/hr in-person or hybrid, $165/hr virtual.
+- **Foundations** (grades 8th–10th): $3,500/yr. 15 sessions per year (1.5 hrs each); additional sessions $195/hr.
+- **Core Strategy & Application Season** (grades 11th–12th): $9,900 for the 2-year term. 50 sessions across the two years; additional sessions $195/hr.
+- **Comprehensive Partnership** (flagship, 9th grade through senior decision, one-time): $16,500. 80 sessions across all four years; additional sessions $195/hr.
+- **Hourly / à la carte**: $195/hr, no package required.
+- **Test prep & tutoring add-ons** (SAT/ACT/PSAT): AI self-paced program $899; 12-hour program $2,449; 25-hour program $3,449; 40-hour program $4,549; unlimited-until-target-score program $4,899.
+- **Essay & application support add-ons**: Essay Advising Program $999; College Essay & Application Bootcamp $1,499.
 - **Specialized pathway add-ons** (NCAA, neurodiverse, international, BS/MD): quoted individually, starting at $2,500 as an add-on to any package.
 - Exact scope and final pricing are always confirmed together during a free consultation.
 
@@ -87,4 +93,8 @@ This counseling works alongside a student's existing school counseling office, n
 - **Who founded the firm, and when?** Dr. Sapneil S. Parikh, Principal & Founder. Founded 2010.
 - **Do they work with families outside Florida?** Yes — virtually, nationwide and internationally, in addition to in-person advising across South Florida.
 - **What age/grade does planning start?** The firm's philosophy is early, multi-year planning starting as early as 8th or 9th grade, not senior-year scrambling.
+<<<<<<< HEAD
+- **Contact**: contact@passagepointadmissions.com. Consultations are by appointment, in person (South Florida) or virtual (nationwide/international).
+=======
 - **Contact**: hello@passagepointadmissions.com. Consultations are by appointment, in person (South Florida) or virtual (nationwide/international).
+>>>>>>> 84d45c77dec5db1d6a884db8256ac2184fbbd2a9
