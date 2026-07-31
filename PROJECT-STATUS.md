@@ -11,7 +11,7 @@ Status reflects only what is verifiable from this project's files and conversati
 - [x] SSL certificate confirmed active — live site loads over HTTPS (verified 2026-07-29)
 - [ ] Confirm backup strategy/process
 - [x] Email hosting configured — Google Workspace/Gmail active for the domain, `contact@passagepointadmissions.com` set as primary
-- [!] **ACTION NEEDED:** local repo changes (`hello@` → `contact@` sitewide swap, plus a stale-pricing fix in `llms.txt` found and corrected 2026-07-29) are not yet pushed/deployed — live site still shows `hello@passagepointadmissions.com` and outdated pricing in its AI-search file
+- [x] `hello@` → `contact@` sitewide swap and `llms.txt` pricing fix — confirmed live on production 2026-07-31
 
 ## 2. Branding & Marketing Materials
 - [x] Company logo finalized (`Brand_Assets/Parikh_Brand_At_A_Glance.png`)
