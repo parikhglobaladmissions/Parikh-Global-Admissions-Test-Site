@@ -72,6 +72,7 @@ Status reflects only what is verifiable from this project's files and conversati
 
 ## 7. Google Business Profile Rollout
 *(Strategy Brief §6 has the full process — but surfaced a real compliance issue first: nothing on the site lists a staffed street address, and Google prohibits 4 separate listings for one practice at one address. Rollout plan branches on one question only you can answer: 4 genuinely staffed offices, or one practice serving multiple markets? See the brief for both compliant paths.)*
+- [x] Business phone number acquired — (561) 408-6686 (Google Voice), added sitewide 2026-07-31 (footer, schema `telephone` field, schedule-consultation page, print collateral, llms.txt). This was a hard requirement for GBP profile creation; the staffed-address question above is now the only remaining blocker.
 - [ ] Boca Raton profile (blocked on the question above)
 - [ ] Wellington / Palm Beach profile (blocked on the question above)
 - [ ] Coral Gables profile (blocked on the question above)
