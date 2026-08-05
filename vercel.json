@@ -1,0 +1,24 @@
+{
+  "redirects": [
+    { "source": "/locations/index.html", "destination": "/locations", "permanent": true },
+    { "source": "/locations/wellington.html", "destination": "/wellington", "permanent": true },
+    { "source": "/locations/boca-raton.html", "destination": "/boca-raton", "permanent": true },
+    { "source": "/locations/coral-gables.html", "destination": "/coral-gables", "permanent": true },
+    { "source": "/locations/coral-springs.html", "destination": "/coral-springs", "permanent": true },
+    { "source": "/locations/miami.html", "destination": "/miami", "permanent": true },
+    { "source": "/locations/palm-beach.html", "destination": "/palm-beach", "permanent": true },
+    { "source": "/locations/pinecrest.html", "destination": "/pinecrest", "permanent": true },
+    { "source": "/locations/aventura.html", "destination": "/aventura", "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/locations", "destination": "/locations/index.html" },
+    { "source": "/wellington", "destination": "/locations/wellington.html" },
+    { "source": "/boca-raton", "destination": "/locations/boca-raton.html" },
+    { "source": "/coral-gables", "destination": "/locations/coral-gables.html" },
+    { "source": "/coral-springs", "destination": "/locations/coral-springs.html" },
+    { "source": "/miami", "destination": "/locations/miami.html" },
+    { "source": "/palm-beach", "destination": "/locations/palm-beach.html" },
+    { "source": "/pinecrest", "destination": "/locations/pinecrest.html" },
+    { "source": "/aventura", "destination": "/locations/aventura.html" }
+  ]
+}

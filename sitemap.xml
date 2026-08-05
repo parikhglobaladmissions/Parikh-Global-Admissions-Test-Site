@@ -28,9 +28,15 @@
   </url>
   <url>
     <loc>https://passagepointadmissions.com/pricing.html</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://passagepointadmissions.com/essay-workbook.html</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://passagepointadmissions.com/faqs.html</loc>
@@ -40,8 +46,14 @@
   </url>
   <url>
     <loc>https://passagepointadmissions.com/resources.html</loc>
-    <lastmod>2026-07-27</lastmod>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://passagepointadmissions.com/family-guide.html</loc>
+    <lastmod>2026-08-04</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
@@ -277,56 +289,56 @@
   </url>
 
   <url>
-    <loc>https://passagepointadmissions.com/locations/index.html</loc>
-    <lastmod>2026-07-27</lastmod>
+    <loc>https://passagepointadmissions.com/locations</loc>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://passagepointadmissions.com/locations/miami.html</loc>
-    <lastmod>2026-07-27</lastmod>
+    <loc>https://passagepointadmissions.com/miami</loc>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://passagepointadmissions.com/locations/aventura.html</loc>
-    <lastmod>2026-07-27</lastmod>
+    <loc>https://passagepointadmissions.com/aventura</loc>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://passagepointadmissions.com/locations/coral-gables.html</loc>
-    <lastmod>2026-07-27</lastmod>
+    <loc>https://passagepointadmissions.com/coral-gables</loc>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://passagepointadmissions.com/locations/pinecrest.html</loc>
-    <lastmod>2026-07-27</lastmod>
+    <loc>https://passagepointadmissions.com/pinecrest</loc>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://passagepointadmissions.com/locations/boca-raton.html</loc>
-    <lastmod>2026-07-27</lastmod>
+    <loc>https://passagepointadmissions.com/boca-raton</loc>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://passagepointadmissions.com/locations/palm-beach.html</loc>
-    <lastmod>2026-07-27</lastmod>
+    <loc>https://passagepointadmissions.com/palm-beach</loc>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://passagepointadmissions.com/locations/wellington.html</loc>
-    <lastmod>2026-07-27</lastmod>
+    <loc>https://passagepointadmissions.com/wellington</loc>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://passagepointadmissions.com/locations/coral-springs.html</loc>
-    <lastmod>2026-07-27</lastmod>
+    <loc>https://passagepointadmissions.com/coral-springs</loc>
+    <lastmod>2026-08-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

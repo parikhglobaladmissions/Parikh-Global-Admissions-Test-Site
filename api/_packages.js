@@ -90,6 +90,14 @@ const PACKAGES = {
     taxCode: 'txcd_20060048',
     installmentEligible: false,
   },
+  'essay-workbook': {
+    name: 'College Essay Brainstorming & Guidelines',
+    description: 'A self-paced digital guide with brainstorming exercises to find a personal statement topic, plus writing guidelines for structuring the essay',
+    amount: 2900,
+    taxCode: 'txcd_20060058', // Training Services - Self-study Web-based
+    installmentEligible: false,
+    digitalDelivery: true,
+  },
 };
 
 // Installments split the full price evenly across this many monthly charges,

@@ -10,7 +10,7 @@ const combined = `${tailwindCss}\n${siteCss}`;
 
 function walk(dir, files) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-    if (entry.name === 'node_modules' || entry.name === 'print-collateral') continue;
+    if (entry.name === 'node_modules' || entry.name === 'print-collateral' || entry.name === 'Brand_Assets') continue;
     const full = path.join(dir, entry.name);
     if (entry.isDirectory()) walk(full, files);
     else if (entry.name.endsWith('.html') && entry.name !== 'index.backup.html') files.push(full);

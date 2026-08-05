@@ -36,7 +36,7 @@ module.exports = async function handler(req, res) {
   const host = req.headers['x-forwarded-host'] || req.headers.host;
   const origin = `${proto}://${host}`;
 
-  const successUrl = `${origin}/payment-success.html?session_id={CHECKOUT_SESSION_ID}`;
+  const successUrl = `${origin}/payment-success.html?session_id={CHECKOUT_SESSION_ID}&package=${encodeURIComponent(packageId)}`;
   const cancelUrl = `${origin}/checkout.html?package=${encodeURIComponent(packageId)}&canceled=1`;
 
   const sessionParams = {

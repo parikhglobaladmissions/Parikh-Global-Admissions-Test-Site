@@ -43,15 +43,15 @@
 
 ## Locations served
 
-- [All Locations](https://passagepointadmissions.com/locations/index.html): Index of South Florida service areas.
-- [Miami, FL](https://passagepointadmissions.com/locations/miami.html)
-- [Aventura, FL](https://passagepointadmissions.com/locations/aventura.html)
-- [Coral Gables, FL](https://passagepointadmissions.com/locations/coral-gables.html)
-- [Pinecrest, FL](https://passagepointadmissions.com/locations/pinecrest.html)
-- [Boca Raton, FL](https://passagepointadmissions.com/locations/boca-raton.html)
-- [Palm Beach, FL](https://passagepointadmissions.com/locations/palm-beach.html)
-- [Wellington, FL](https://passagepointadmissions.com/locations/wellington.html)
-- [Coral Springs, FL](https://passagepointadmissions.com/locations/coral-springs.html)
+- [All Locations](https://passagepointadmissions.com/locations): Index of South Florida service areas.
+- [Miami, FL](https://passagepointadmissions.com/miami)
+- [Aventura, FL](https://passagepointadmissions.com/aventura)
+- [Coral Gables, FL](https://passagepointadmissions.com/coral-gables)
+- [Pinecrest, FL](https://passagepointadmissions.com/pinecrest)
+- [Boca Raton, FL](https://passagepointadmissions.com/boca-raton)
+- [Palm Beach, FL](https://passagepointadmissions.com/palm-beach)
+- [Wellington, FL](https://passagepointadmissions.com/wellington)
+- [Coral Springs, FL](https://passagepointadmissions.com/coral-springs)
 
 Families outside South Florida are advised virtually, nationwide and internationally.
 
